@@ -44,7 +44,7 @@ function submitData(){
   }
   let shoppingListItem = {
   id: Date.now(), 
-  names: nameInput.value,
+  name: nameInput.value,
   price: priceInput.value,
   purchased: false
  };
